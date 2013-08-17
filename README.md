@@ -3,7 +3,7 @@ Rosario-CMS
 
 CMS Basado en Symfony2
 
-== Objetivos ==
+## Objetivos ##
 * sitio institucional/estatico (objetivo #1)
 * Fuerte integración JS(posiblemente angularJS)
 * Extensible (poder agregar nuevos tipos de contenidos)
