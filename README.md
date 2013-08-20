@@ -23,13 +23,17 @@ El CMS se compone de dos componentes principales, contenidos y presentadores.
  Los presentadores se encargan de mostrar el contenido en todo momento, como minimos deben existir los siguiente presentadores 
 
  * Organizador 
-	setea los bloques posibles, por ejemplo 'cabecera', 'menu', 'contenido', cada uno de estos puede ser completado por otro presentador.
-	Pueden existir varios
+
+setea los bloques posibles, por ejemplo 'cabecera', 'menu', 'contenido', cada uno de estos puede ser completado por otro presentador.
+Pueden existir varios
+
  * Crudo
-        para mostrar contenido sin modificaciones (especialmente binario, imagenes, js, css)
+
+para mostrar contenido sin modificaciones (especialmente binario, imagenes, js, css)
+
  * Especifico 
-	Lista un contenido de una forma especifica.
-	Debe existir al menos uno por cada contenido.
+Lista un contenido de una forma especifica.
+Debe existir al menos uno por cada contenido.
         
 ### Contenido ###
  Cada contenido define sus propios datos asi como las relaciones con otros contenido.
