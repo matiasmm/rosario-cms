@@ -38,5 +38,5 @@ Debe existir al menos uno por cada contenido.
 ### Contenido ###
  Cada contenido define sus propios datos asi como las relaciones con otros contenido.
  * Binario 
- * P´agina 
+ * Página 
  * Directorio 
