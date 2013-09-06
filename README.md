@@ -2,6 +2,14 @@ Rosario-CMS
 ===========
 
 CMS Basado en Symfony2
+Este proyecto se encuentra en su etapa inicial.
+
+## Instalacion ##
+
+    git clone https://github.com/lucciano/rosario-cms.git
+    cd rosario-cms
+    php app/console server:run
+
 
 ## Objetivos ##
 * sitio institucional/estatico (objetivo #1)
