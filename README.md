@@ -1,50 +1,48 @@
 Rosario-CMS
 ===========
 
-CMS Basado en Symfony2
-Este proyecto se encuentra en su etapa inicial.
+CMS based on Symfony2
+This is a ßeta project.
 
-## Instalacion ##
+## Install ##
 
     git clone https://github.com/lucciano/rosario-cms.git
     cd rosario-cms
     php app/console server:run
 
 
-## Objetivos ##
-* sitio institucional/estatico (objetivo #1)
-* Fuerte integración JS(posiblemente angularJS)
-* Extensible (poder agregar nuevos tipos de contenidos)
-  * Pag, Directorio (Primero)
-  * Calendario, 
+## Aims ##
+* Static website
+* Strong integration with JS (maybe through AngularJS)
+* Extensions
+  * Pages, directory
+  * Calendar
   * Blog, Blog Post
   * Etc, etc
 * Skineable
-  * Estructura (Como se muestra cada contenido, ie pagina)
-  * Coordinador (Como se listan los contenidos incluidos, ie directorios, la idea es poder cambiarlo solo para el directorio actual)
-  * Assets (js/css/imagenes)
+  * Structure (how each content is displayed)
+  * Coordinator
+  * Assets (js/css/images)
 
-## Componentes ##
-El CMS se compone de dos componentes principales, contenidos y presentadores.
+## Components ##
+The system consists on two main compontents: content and anchors.
 
-### Presentadores ###
- Los presentadores se encargan de mostrar el contenido en todo momento, como minimos deben existir los siguiente presentadores 
+### Anchors ###
+ Anchors are used to show the content in every moment, at least there must be the following anchors:
+ 
+ * Organizator 
 
- * Organizador 
+Set the possible blocks, for example 'header, 'menu', 'content', each one can be completed with another anchor.
 
-setea los bloques posibles, por ejemplo 'cabecera', 'menu', 'contenido', cada uno de estos puede ser completado por otro presentador.
-Pueden existir varios
+ * Crude
 
- * Crudo
+To show content without modifications (specially binary, images, JS, CSS)
 
-para mostrar contenido sin modificaciones (especialmente binario, imagenes, js, css)
-
- * Especifico 
-Lista un contenido de una forma especifica.
-Debe existir al menos uno por cada contenido.
+ * Specific
+List content in an specific way.
         
-### Contenido ###
- Cada contenido define sus propios datos asi como las relaciones con otros contenido.
- * Binario 
- * Página 
- * Directorio 
+### Content ###
+ Each content defines its own data as well as its relationship with other content.
+ * Binary
+ * Page 
+ * Directory 
