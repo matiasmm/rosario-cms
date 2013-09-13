@@ -46,3 +46,7 @@ List content in an specific way.
  * Binary
  * Page 
  * Directory 
+
+*** Coding standards ***
+
+http://symfony.com/doc/current/contributing/code/standards.html
