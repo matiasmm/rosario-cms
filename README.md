@@ -49,4 +49,4 @@ List content in an specific way.
 
 *** Coding standards ***
 
-http://symfony.com/doc/current/contributing/code/standards.html
+    http://symfony.com/doc/current/contributing/code/standards.html
