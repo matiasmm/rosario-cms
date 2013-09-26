@@ -1,0 +1,22 @@
+<VirtualHost *:80>
+	ServerAdmin info@inventis.be
+
+	DocumentRoot /home/vagrant/rosario-cms/web/
+	
+	<Directory />
+		Options FollowSymLinks
+		AllowOverride None
+	</Directory>
+	
+	<Directory /home/vagrant/rosario-cms/web/>
+                Options Indexes FollowSymLinks MultiViews Indexes
+                AllowOverride All
+                Order allow,deny
+                allow from all
+                DirectoryIndex app.php
+	</Directory>
+
+	ErrorLog /var/log/apache2/error.log
+	LogLevel warn
+	CustomLog /var/log/apache2/access.log combined
+</VirtualHost>
