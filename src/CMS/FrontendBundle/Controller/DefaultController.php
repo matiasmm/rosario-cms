@@ -7,7 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class DefaultController extends Controller
 {
-    public function indexAction($name){
+    public function indexAction(){
         $contents = $this->getDoctrine()->getRepository('CMSFrontendBundle:Content')
         ->findAll();
 
