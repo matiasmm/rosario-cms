@@ -1,0 +1,16 @@
+{% extends '::base.html.twig' %}
+
+{% block page_title %}
+    <h1>
+        {{ content.title }}
+    </h1>
+{% endblock %}
+
+{% block body %}
+        <div>
+
+            <div class="content">
+                {{ content.body }}
+            </div>
+        </div>
+{% endblock %}

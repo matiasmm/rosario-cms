@@ -1,0 +1,7 @@
+<ul>
+{% for item in items %}
+    <li>
+        <a href="{{ path('cms_frontend_content_show', {id: item.id}) }}" class="item">{{ item.title }}</a>
+    </li>
+{% endfor %}
+</ul>

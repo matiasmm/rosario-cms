@@ -7,6 +7,12 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
+
+        <h3>Menu</h3>
+        {{ render(controller('CMSFrontendBundle:Menu:index')) }}
+
+
+        {% block page_title %}{% endblock %}
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>

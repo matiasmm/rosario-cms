@@ -13,4 +13,11 @@ class DefaultController extends Controller
 
         return $this->render('CMSFrontendBundle:Default:index.html.twig', array('contents' => $contents));
     }
+
+    public function showAction($id){
+        $content = $this->getDoctrine()->getRepository('CMSFrontendBundle:Content')
+            ->find($id);
+
+        return $this->render('CMSFrontendBundle:Default:show.html.twig', array('content' => $content));
+    }
 }

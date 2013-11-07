@@ -1,3 +1,8 @@
 cms_frontend_homepage:
-    pattern:  /contents
+    pattern:  /
     defaults: { _controller: CMSFrontendBundle:Default:index }
+
+
+cms_frontend_content_show:
+    pattern:  /contents/{id}
+    defaults: { _controller: CMSFrontendBundle:Default:show }
