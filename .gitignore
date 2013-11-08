@@ -9,3 +9,8 @@
 /composer.phar
 /.idea/
 /vagrant/.vagrant/
+
+.sass-cache/
+node_modules/
+web/css/generated
+web/js/generated
