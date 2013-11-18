@@ -1,5 +1,12 @@
 language: php
 
+notifications:
+  email: 
+    recipients:
+      - rosario-cms@gmail.com
+    on_success: always #[always|never|change] # default: change
+    on_failure: always #[always|never|change] # default: always
+
 php:
   - 5.3.3
   - 5.3
