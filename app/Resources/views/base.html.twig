@@ -6,11 +6,10 @@
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
         <link rel="stylesheet" href="{{ asset('css/generated/normalize.css') }}" />
-        <link rel="stylesheet" href="{{ asset('css/generated/foundation.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/generated/theme.css') }}" />
     </head>
     <body>
 
-        <h3>Menu</h3>
         {{ render(controller('CMSFrontendBundle:Menu:index')) }}
 
 
@@ -43,7 +42,8 @@
             $(document).foundation();
         </script>
 
-
+        <script type="text/javascript" src="{{ asset('vendors/requirejs/require.js') }}"
+                data-main="{{ asset('main') }}"></script>
         {% block javascripts %}
 
         {% endblock %}

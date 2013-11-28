@@ -11,5 +11,7 @@ namespace CMS\FrontendBundle;
 
 
 class ContentHandler {
-
+    function getContent(){
+        return "something";
+    }
 }
