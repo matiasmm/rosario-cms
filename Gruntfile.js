@@ -18,8 +18,7 @@ module.exports = function(grunt) {
       sass: {
         main: {
             files: {
-                'web/css/generated/normalize.css' :  'vendor/zurb/foundation/scss/normalize.scss',
-
+                'web/css/generated/normalize.css' :  'web/vendor/foundation/scss/normalize.scss',
                 'web/css/generated/theme.css' : 'web/scss/theme.scss'
                 //'web/css/generated/foundation.css' : 'vendor/zurb/foundation/scss/foundation.scss'
             }

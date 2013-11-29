@@ -16,7 +16,7 @@
   ],
   "directory": "web/vendors",
   "dependencies": {
-    "jquery": "~1.10.2",
-    "requirejs": "~2.1.9"
+    "requirejs": "~2.1.9",
+    "foundation": "zurb/bower-foundation"
   }
 }
