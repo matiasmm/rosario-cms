@@ -1,0 +1,22 @@
+{
+  "name": "rosario-cms",
+  "version": "0.0.0",
+  "homepage": "https://github.com/matiasmm/rosario-cms",
+  "authors": [
+    "Matias Montenegro <matiasmmontenegro@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "directory": "web/vendors",
+  "dependencies": {
+    "requirejs": "~2.1.9",
+    "foundation": "zurb/bower-foundation"
+  }
+}

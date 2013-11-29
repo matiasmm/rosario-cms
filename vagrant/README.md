@@ -1,5 +1,14 @@
 Vagrant development setup.
 
+You must have a vagrant box named "debian-wheezy-64", so checkit with command
+
+	vagrant box list
+
+if you don't have one you can get the on first downloading one from https://www.dropbox.com/s/q4r5s1qg2dovxi8/debian-wheezy-64.box
+then run the command
+
+	vagrant box import debian-wheezy-64.box debian-wheezy-64
+
 to initialize the enviroment run
 
 	vagrant up

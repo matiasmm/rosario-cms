@@ -31,6 +31,13 @@ class Content
     /**
      * @var string
      *
+     * @ORM\Column(name="author", type="string", length=255)
+     */
+    private $author;
+
+    /**
+     * @var string
+     *
      * @ORM\Column(name="body", type="text")
      */
     private $body;
@@ -185,5 +192,28 @@ class Content
     public function getCreatedAt()
     {
         return $this->createdAt;
+    }
+
+    /**
+     * Set author
+     *
+     * @param string $author
+     * @return Content
+     */
+    public function setAuthor($author)
+    {
+        $this->author = $author;
+    
+        return $this;
+    }
+
+    /**
+     * Get author
+     *
+     * @return string 
+     */
+    public function getAuthor()
+    {
+        return $this->author;
     }
 }
