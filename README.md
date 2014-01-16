@@ -24,13 +24,19 @@ Make sure you have the **Requirements** listed above installed.
  2. Install dependencies using composer:
    `composer.phar install `
  3. Create from template config file set up the database connection:
+ 
    3.1. `cp app/config/parameters.yml.dist app/config/parameters.yml`
-   3.2. Open with a text editor `app/config/parameters.yml`. Since we're still on development stage, you can avoid this since we already have an sqlite3 database with some data.
 
- 4. Install node dependencies and run grunt tasks
-   4.1.  Install node dependencies `npm install`
-   4.2.  Install bower dependencies: `grunt bower:install`
-   4.3.  Run all tasks `grunt`
+   3.2. Open with a text editor `app/config/parameters.yml`. Since we're still on development stage, you can avoid this since we already have an sqlite3 database with some data.
+   
+
+ 4. Install node dependencies and run grunt tasks.
+ 
+   4.1.  Install node dependencies `npm install`.
+
+   4.2.  Install bower dependencies: `grunt bower:install`.
+   
+   4.3.  Run all tasks `grunt`.
 
  5.  Run the app
         `php app/console server:run`
